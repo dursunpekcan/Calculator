@@ -21,13 +21,16 @@ int main() {
     cout << "Seçiminiz: ";
     cin >> secim;
 
+
+
+
     switch (secim)
     {
     case 1:
         cout << "Toplama: " << sayi1 + sayi2 << endl;
         break;
     case 2:
-        cout << "Cikarma: " << sayi1 + sayi2 << endl;
+        cout << "Cikarma: " << sayi1 - sayi2 << endl;
         break;
     default:
         cout << "Gecersiz Islem!";
