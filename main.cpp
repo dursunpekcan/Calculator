@@ -32,6 +32,15 @@ int main() {
     case 2:
         cout << "Cikarma: " << sayi1 - sayi2 << endl;
         break;
+    case 3:
+        cout << "Carpma: " << sayi1 * sayi2 << endl;
+    case 4:
+        if(sayi2 != 0){
+            cout << "Bolme: " << sayi1 / sayi2 << endl;
+        }
+        else{
+            cout << "Hata: Sifira bolme yapilamaz!" << endl;
+        }            
     default:
         cout << "Gecersiz Islem!";
     }
